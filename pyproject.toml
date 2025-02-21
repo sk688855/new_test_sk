@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "testzeus-hercules"
-version = "0.0.32"
+version = "0.1.0-alpha"
 description = "Hercules: The World's First Open-Source AI Agent for End-to-End Testing"
 authors = ["Shriyansh Agnihotri <shriyansh@testzeus.com>"]
 readme = "README.md"
@@ -40,6 +40,7 @@ aiofiles = "^24.1.0"
 chromadb = "^0.6.3"
 sentence-transformers = "^3.4.1"
 unstructured = {extras = ["all-docs"], version = "^0.16.21"}
+appium-python-client = "^4.5.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.3"
